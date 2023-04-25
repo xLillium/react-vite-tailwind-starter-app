@@ -3,20 +3,10 @@
 @tailwind utilities;
 
 body {
-    background-color: #141428;
-    color: white;
-}
-
-.centered-logo {
-    max-height: 1024px;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
-
-.home-text {
-    @apply mt-5 mb-8 text-5xl font-bold leading-[1.15] sm:text-6xl text-center;
+  background-color: #151628;
+  color: white;
 }
 
 .active-nav-link {
-    @apply mx-4 font-semibold pb-1 border-b-2 border-white;
+  @apply mx-4 font-semibold pb-1 border-b-2 border-white;
 }
